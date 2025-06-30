@@ -1,0 +1,237 @@
+body {
+    background-color: rgba(255, 255, 255, 0.516);
+}
+
+.padding {
+    padding: 3rem !important
+}
+
+.user-card-full {
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    border: none;
+    margin-bottom: 30px;
+    left: 200px;
+    top: 200px;
+}
+
+.m-r-0 {
+    margin-right: 0px;
+}
+
+.m-l-0 {
+    margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+        background: -webkit-gradient(linear, left top, right top, from(#FFF492), to(#F7E010));
+    background: linear-gradient(to right, #F7E010, #FFF492);
+}
+
+.user-profile {
+    padding: 20px 0;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.m-b-25 {
+    margin-bottom: 10px;
+    margin-left: 10PX;
+}
+
+.img-radius {
+    border-radius: 5px;
+}
+
+
+ 
+h6 { width: 240px;
+    font-size: 14px;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px){
+p {
+    font-size: 14px;
+}
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.b-b-default {
+    border-bottom: 1px solid rgba(205, 200, 200, 0.516);
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: #919aa3 !important;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.user-card-full .social-link li {
+    display: inline-block;
+}
+
+.user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-page{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: rgba(255, 255, 255, 0.516);
+    margin-top: 0;
+}
+.nav-case{
+    width: 1520px; 
+    height: 90px;  
+    position: absolute; 
+    background: linear-gradient(90deg, white 0%, #FFF492 100%);
+    border-bottom: 1px #F7E010 solid
+}
+.nav-case2{
+    width: 200px; 
+    left: 320px; 
+    top: 30px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    display: inline-flex
+}
+.icon-home-frame{
+    bottom: 10px;
+    width: 36px; 
+    height: 36px; 
+    position: relative
+}
+.nav-bar-text{
+    color: #0404AA; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    line-height: 28.80px; 
+    word-wrap: break-word
+}
+.profile-icon{
+    width: 68px; 
+    height: 64px; 
+    left: 1386px; 
+    top: 14px; 
+    position: absolute
+}
+.notification-icon{
+    width: 40px; 
+    height: 40px; 
+    left: 1336px; 
+    top: 25px; 
+    position: absolute 
+}
+.log-out{
+    width: 48px; 
+    height: 48px; 
+    left: 1440px; 
+    top: 21px; 
+    position: absolute
+}
+.nav-case3{
+    left: 1492px; 
+    top: 5px; 
+    position: absolute   
+}
+
+
+.logo-frame{
+    align-self: stretch; 
+    height: 36px; 
+    padding-top: 3px; 
+    padding-left: 10px; 
+    padding-right: 9px; 
+    background: #F7E010; 
+    border-top-left-radius: 2px; 
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 12px; 
+    border-bottom-left-radius: 12px;
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+.logo-text-frame{
+    align-self: stretch; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+    
+}
+.logo-text{
+    color: var(--royalblue, #0404AA);
+    font-family: "Montserrat Alternates";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; 
+    word-wrap: break-word
+}

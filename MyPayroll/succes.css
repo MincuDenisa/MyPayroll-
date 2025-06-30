@@ -1,0 +1,124 @@
+.register_page{
+    width: 100%; 
+    height: 100%; 
+    position: relative;
+    background-color: rgba(255, 252, 230, 0.20) 
+}
+.logo-frame{
+    display: inline-flex;
+    padding: 0px 6px 1px 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px 2px 12px 12px;
+    background: var(--yellow, #F7E010);
+    position:absolute;
+    left: 204px; top: 20px
+}
+.logo-text-frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-text{
+    color: var(--royalblue, #0404AA);
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    word-wrap: break-word
+}
+.icon-frame{
+    width: 24px;
+    height: 24px;
+}
+.rectangle1{
+    width: 312px;
+    height: 300px;
+    left: 1220px; 
+    top: -80px; 
+    position: absolute;
+    flex-shrink: 0;
+    border-radius: 2px 60px 2px 2px;
+    border: 1px solid var(--yellow, #F7E010);
+    transform: rotate(180deg)
+}
+.rectangle2{
+    width: 498px;
+    height: 270px;
+    left: -230px; 
+    top: 422px; 
+    position: absolute;
+    flex-shrink: 0;
+    border-radius: 2px 60px 2px 2px;
+    border: 1px solid var(--yellow, #F7E010);
+   
+}
+.frame{
+    padding-top: 104.50px; 
+    padding-bottom: 103.50px; 
+    padding-left: 58.50px; 
+    padding-right: 58.50px; 
+    left: 507px; top: 128px; 
+    position: absolute; 
+    background: white; 
+    border-top-left-radius: 6px;
+     border-top-right-radius: 60px; 
+     border-bottom-right-radius: 6px; 
+     border-bottom-left-radius: 6px; 
+     overflow: hidden; 
+     justify-content: center; 
+     align-items: center; 
+     display: inline-flex
+}
+.auto-layout{
+    align-self: stretch; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    gap: 59px; 
+    display: inline-flex
+}
+h2{
+    color: #0404AA; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 700;
+     line-height: 28.80px; 
+     word-wrap: break-word
+}
+.button1{
+    width: 434px; 
+    height: 48px; 
+    padding-left: 32px; 
+    padding-right: 32px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    background: #0404AA; 
+    border-top-left-radius: 2px; 
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 2px; 
+    border-bottom-left-radius: 2px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    display: inline-flex
+}
+.button1-text{
+    color: #F7E010; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word
+}
+
+
+
+
+
+
+
+
